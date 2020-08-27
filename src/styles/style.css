@@ -1,0 +1,159 @@
+body{
+  background-image: url('../images/new_bg-min1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  font-family: 'Dancing Script', cursive;
+}
+
+.nav-bar ul li {
+  width: 120px;
+  margin: 5px auto;
+  text-align: center;
+  list-style: none;
+  font-size: 30px;
+  padding: 5px;
+  font-weight: bold;
+  color: #d10426;
+}
+
+.welcome-text {
+  width: 70%;
+  margin: 30px auto;
+  display: none;
+}
+
+.welcome-text h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 45px;
+}
+
+.welcome-text p {
+  width: 80%;
+  margin: 60px auto;
+  line-height: 20px;
+  font-size: 25px;
+}
+
+.food-menu {
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.food-item {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.food-item figure {
+  width: 300px;
+  height: 250px;
+}
+
+.food-item figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.food-item figcaption {
+  font-size: 19px;
+}
+
+.food-item figcaption span{
+  font-size: 22px;
+  color: #d10426;
+}
+
+.food-menu {
+  display: none;
+}
+
+.contact-box{
+	max-width: 750px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: transparent;
+  box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+  margin: 0 auto;
+  /* display: none; */
+}
+
+.form{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #d10426;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #d10426;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #a70b25;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
