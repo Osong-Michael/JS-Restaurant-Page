@@ -66,7 +66,7 @@
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-- Make sure your machine has node and npm packages installed.
+- Make sure your machine has `node` and `npm` packages installed.
 
 ### Installation
  
@@ -107,9 +107,9 @@ Contributions are what make the open source community such an amazing place to b
 
 👤 **Osong Agberndifor**
 
-- Github: [@githubhandle](https://github.com/OA7)
-- Twitter: [@twitterhandle](https://twitter.com/Osong17)
-- Linkedin: [linkedin](https://linkedin.com/osong-agberndifor)
+- Github: [OA7](https://github.com/OA7)
+- Twitter: [@Osong17](https://twitter.com/Osong17)
+- Linkedin: [Osong](https://linkedin.com/osong-agberndifor)
 
 
 <!-- ACKNOWLEDGEMENTS -->
