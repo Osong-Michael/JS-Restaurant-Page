@@ -13,20 +13,18 @@ const div3 = document.createElement('div');
 div3.innerHTML = contact;
 
 function show(e) {
+  const child = content.children[1];
   if (e.id === 'tab2') {
-    const child = content.children[1];
     content.removeChild(child);
     content.appendChild(div2);
   }
 
   if (e.id === 'tab3') {
-    const child = content.children[1];
     content.removeChild(child);
     content.appendChild(div3);
   }
 
   if (e.id === 'tab1') {
-    const child = content.children[1];
     content.removeChild(child);
     content.appendChild(div1);
   }
