@@ -1,5 +1,5 @@
-const contactPage = () => `
-  <div class="contact-box d-none">
+const contact = `
+  <div class="contact-box">
     <div class="form">
       <h2>Contact Us</h2>
       <input type="text" class="field" placeholder="Your Name">
@@ -11,4 +11,4 @@ const contactPage = () => `
   </div>
   `;
 
-export default contactPage;
+export default contact;

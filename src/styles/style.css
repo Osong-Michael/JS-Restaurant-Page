@@ -30,7 +30,12 @@ body{
   font-size: 30px;
   padding: 5px;
   font-weight: bold;
+  
+}
+
+.nav-bar ul li a {
   color: #d10426;
+  text-decoration: none;
 }
 
 .welcome-text {

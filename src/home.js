@@ -1,4 +1,4 @@
-const homePage = () => `
+const home = `
   <div id="welcome" class="welcome-text">
     <h2>Your Satisfaction Our Priority</h2>
     <p class="wlc-par">
@@ -7,4 +7,4 @@ const homePage = () => `
   </div>
   `;
 
-export default homePage;
+export default home;
