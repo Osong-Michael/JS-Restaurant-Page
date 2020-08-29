@@ -46,4 +46,11 @@ const menu = `
   </div>
   `;
 
-export default menu;
+function menuDiv() {
+  const div = document.createElement('div');
+  div.innerHTML = menu;
+
+  return div;
+}
+
+export default menuDiv;

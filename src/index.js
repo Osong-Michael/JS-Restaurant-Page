@@ -1,39 +1,33 @@
 import './styles/style.css';
-import home from './home';
-import menu from './menu';
-import contact from './contact';
+import homeDiv from './home';
+import menuDiv from './menu';
+import contactDiv from './contact';
 import navBar from './nav-bar';
 
 const content = document.getElementById('content');
-const div1 = document.createElement('div');
-div1.innerHTML = home;
-const div2 = document.createElement('div');
-div2.innerHTML = menu;
-const div3 = document.createElement('div');
-div3.innerHTML = contact;
 
 function show(e) {
   const child = content.children[1];
   if (e.id === 'tab2') {
     content.removeChild(child);
-    content.appendChild(div2);
+    content.appendChild(menuDiv());
   }
 
   if (e.id === 'tab3') {
     content.removeChild(child);
-    content.appendChild(div3);
+    content.appendChild(contactDiv());
   }
 
   if (e.id === 'tab1') {
     content.removeChild(child);
-    content.appendChild(div1);
+    content.appendChild(homeDiv());
   }
 }
 
 
 window.onload = () => {
-  content.innerHTML = navBar;
-  content.appendChild(div1);
+  content.innerHTML = navBar();
+  content.appendChild(homeDiv());
 
   const tab1 = document.getElementById('tab1');
   const tab2 = document.getElementById('tab2');

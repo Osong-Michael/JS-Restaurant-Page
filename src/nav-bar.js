@@ -1,4 +1,4 @@
-const navBar = `
+const navBar = () => `
   <nav class="nav-bar">
     <ul>
       <li id="tab1"><a href="#">Home</a></li>

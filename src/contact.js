@@ -11,4 +11,11 @@ const contact = `
   </div>
   `;
 
-export default contact;
+function contactDiv() {
+  const div = document.createElement('div');
+  div.innerHTML = contact;
+
+  return div;
+}
+
+export default contactDiv;

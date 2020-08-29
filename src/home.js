@@ -7,4 +7,12 @@ const home = `
   </div>
   `;
 
-export default home;
+function homeDiv() {
+  const div1 = document.createElement('div');
+  div1.innerHTML = home;
+
+  return div1;
+}
+
+
+export default homeDiv;

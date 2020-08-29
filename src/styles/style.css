@@ -2,7 +2,6 @@ body {
   background-image: url('../images/new_bg-min1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Dancing Script', cursive;
   color: #fff;
   padding: 0;
   margin: 0;
@@ -46,6 +45,7 @@ h2 {
   position: relative;
   padding: 0 0 10px;
   margin-bottom: 10px;
+  font-family: 'Dancing Script', cursive;
 }
 
 .welcome-text h2 {
@@ -59,6 +59,7 @@ h2 {
   margin: 60px auto;
   line-height: 20px;
   font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .food-menu {
