@@ -21,7 +21,7 @@
     <a href="https://github.com/OA7/JS-Restaurant-Page"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">View Demo</a>
+    <a href="https://oa7.github.io/JS-Restaurant-Page">View Demo</a>
     ·
     <a href="https://github.com/OA7/JS-Restaurant-Page/issues">Report Bug</a>
     ·
