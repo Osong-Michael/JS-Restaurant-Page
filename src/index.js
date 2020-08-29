@@ -28,12 +28,6 @@ function show(e) {
 window.onload = () => {
   content.innerHTML = navBar();
   content.appendChild(homeDiv());
-
-  const tab1 = document.getElementById('tab1');
-  const tab2 = document.getElementById('tab2');
-  const tab3 = document.getElementById('tab3');
-
-  tab1.addEventListener('click', () => { show(tab1); });
-  tab2.addEventListener('click', () => { show(tab2); });
-  tab3.addEventListener('click', () => { show(tab3); });
+  const tabs = document.getElementsByClassName('tab');
+  [...tabs].forEach(tab => tab.addEventListener('click', () => show(tab)));
 };

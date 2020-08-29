@@ -1,9 +1,9 @@
 const navBar = () => `
   <nav class="nav-bar">
     <ul>
-      <li id="tab1"><a href="#">Home</a></li>
-      <li id="tab2"><a href="#">Menu</a></li>
-      <li id="tab3"><a href="#">Contact</a></li>
+      <li id="tab1" class="tab"><a href="#">Home</a></li>
+      <li id="tab2" class="tab"><a href="#">Menu</a></li>
+      <li id="tab3" class="tab"><a href="#">Contact</a></li>
     </ul>
   </nav>
   `;
